@@ -1,7 +1,7 @@
-# Duplicate Character Remover
+# DupeDrop
 
 ## Introduction
-Duplicate Character Remover is a straightforward web application that enables users to input a string of text and remove all duplicate instances of a chosen character in the string. The updated string and a visual representation of the unique characters are displayed.
+DupeDrop is a duplicate character remover application which is a straightforward web application that enables users to input a string of text and remove all duplicate instances of a chosen character in the string. The updated string and a visual representation of the unique characters are displayed.
 
 This project is developed using ReactJS and comprises two screens. The first screen contains an input field and a submit button, while the second screen renders each character of the string provided by the user in the first screen as cards on the UI. Each card includes the character and a delete icon on top. When the delete icon is clicked, all other instances of the selected character in the string are removed, leaving only the clicked instance of the character on the screen.
 
