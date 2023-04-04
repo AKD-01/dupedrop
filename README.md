@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Duplicate Character Remover
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+Duplicate Character Remover is a straightforward web application that enables users to input a string of text and remove all duplicate instances of a chosen character in the string. The updated string and a visual representation of the unique characters are displayed.
 
-## Available Scripts
+This project is developed using ReactJS and comprises two screens. The first screen contains an input field and a submit button, while the second screen renders each character of the string provided by the user in the first screen as cards on the UI. Each card includes the character and a delete icon on top. When the delete icon is clicked, all other instances of the selected character in the string are removed, leaving only the clicked instance of the character on the screen.
 
-In the project directory, you can run:
+## Quick Start Guide
+### To run this project on your local machine, ensure that you have Node.js installed first.
 
-### `npm start`
+1. Clone the repository onto your local machine.
+2. Navigate to the app folder by running cd app in the project directory.
+3. Install the dependencies by running npm install.
+4. Start the development server by running npm start.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Screenshots
+## Screen 1
+![Screen 1](../app/Screenshots/Screen1.png "Screen 1")
+## Screen 2 (Original String)
+![Screen 2](../app/Screenshots/Screen2_1.png "Original String")
+## Screen 2 (After removing Duplicates)
+![Screen 2](../app/Screenshots/Screen2_2.png "After removing Duplicates")
 
-### `npm test`
+# Instructions for Use
+## Screen 1
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. To proceed, fill in the input field with a value that is not blank.
+2. Click the "Submit" button to be taken to Screen 2.
 
-### `npm run build`
+## Screen 2
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Remove all other occurrences of a character in the string by clicking the delete button on any character card.
+2. Once all duplicates have been eliminated, a success header will appear, displaying the original string and the resulting string.
+3. To return to Screen 1 with an empty input field, click the back button.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Other Noteworthy Features of the Source Code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Detailed comments throughout the codebase for easier understanding and maintenance.
+2. A comprehensive and clear readme file that outlines how to install and use the application.
 
-### `npm run eject`
+# Libraries and Packages Utilized
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. create-react-app
+2. react-router-dom
+    
