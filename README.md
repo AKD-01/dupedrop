@@ -16,11 +16,11 @@ This project is developed using ReactJS and comprises two screens. The first scr
 
 # Screenshots
 ## Screen 1
-![Screen 1](../app/Screenshots/Screen1.png "Screen 1")
+![Screen 1](./Screenshots/Screen1.png "Screen 1")
 ## Screen 2 (Original String)
-![Screen 2](../app/Screenshots/Screen2_1.png "Original String")
+![Screen 2](./Screenshots/Screen2_1.png "Original String")
 ## Screen 2 (After removing Duplicates)
-![Screen 2](../app/Screenshots/Screen2_2.png "After removing Duplicates")
+![Screen 2](./Screenshots/Screen2_2.png "After removing Duplicates")
 
 # Instructions for Use
 ## Screen 1
