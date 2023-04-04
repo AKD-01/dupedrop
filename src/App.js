@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"; // Import CSS file
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Screen1 from "./Screens/Screen1/Screen1";
+import Screen2 from "./Screens/Screen2/Screen2";
+import Navbar from "./Components/Navbar/Navbar";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar text="Remove Duplicate Characters" />
+      <Routes>
+        <Route path="/" element={<Screen1 />} /> 
+        <Route path="/Screen2" element={<Screen2 />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
